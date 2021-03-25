@@ -26,11 +26,12 @@
         </div>
         <div class="media-content">
           <div class="content">
-              <p style="strong">title</p>
-                <p style="small">status</p>
-              <p style="small">date</p>
-                  review
-
+              <p>
+                  <strong>{{ review['title'] }}</strong>
+                  <small>{{ review['status'] }}</small>
+                  <small>{{ [review['date'] }}</small>
+                  {{ review['review'] }}
+                </p>
           </div>
         </div>
       </article>
